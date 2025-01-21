@@ -205,6 +205,31 @@ The API implements comprehensive error handling for:
 4. Push to the branch
 5. Create a Pull Request
 
+## Deployment
+
+### Docker
+```dockerfile
+FROM python:3.9
+
+WORKDIR /app
+COPY . .
+RUN pip install -r requirements.txt
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+Docker image  build and run
+```bash
+docker build -t coffee-shop-api .
+docker run -p 8000:8000 coffee-shop-api
+```
+
+## Additional Resources
+
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
