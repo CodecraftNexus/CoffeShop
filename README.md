@@ -230,6 +230,7 @@ docker run -p 8000:8000 coffee-shop-api
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 
-## License
+## Support
+Report issues or suggestions via GitHub Issues.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
