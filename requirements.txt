@@ -1,12 +1,12 @@
 fastapi==0.110.0
 sqlalchemy==2.0.27
 pydantic==2.6.1
-pydantic[email]  # For EmailStr validation
-python-jose[cryptography]  # For JWT handling
-passlib[bcrypt]  # For password hashing
-uvicorn  # For running the FastAPI application
-mysqlclient  # For MySQL database connection
-python-multipart  # For form data handling
-email-validator  # For email validation
-typing-extensions  # For type hints support
-datetime  # Part of Python standard library, but listed for completeness
+pydantic[email]==2.6.1
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1  # Added explicit bcrypt version
+uvicorn==0.27.1
+mysqlclient==2.2.4
+python-multipart==0.0.9
+email-validator==2.1.0
+typing-extensions==4.9.0
