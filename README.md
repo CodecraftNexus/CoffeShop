@@ -55,7 +55,7 @@ A comprehensive backend API system for a coffee shop built using FastAPI and MyS
 
 1. Clone the repository:
 ```bash
-git clone [[repository-url]](https://github.com/CodecraftNexus/coffee-shop-api)
+git clone https://github.com/CodecraftNexus/coffee-shop-api
 cd coffee-shop-api
 ```
 
