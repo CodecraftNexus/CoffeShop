@@ -85,6 +85,10 @@ CREATE DATABASE coffee_shop_db;
 ```python
 SQLALCHEMY_DATABASE_URL = "mysql://user:password@localhost/coffee_shop_db"
 ```
+6. Install JWT
+```bash
+pip install jwt
+```
 
 ## Running the Application
 
