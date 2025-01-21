@@ -1,8 +1,8 @@
-fastapi==0.68.0
-uvicorn==0.15.0
-sqlalchemy==1.4.23
-mysql-connector-python==8.0.26
-pydantic==1.8.2
+fastapi==0.95.2
+pydantic<2.0.0
+uvicorn==0.22.0
+sqlalchemy==2.0.15
+mysql-connector-python
 python-jose==3.3.0
 passlib==1.7.4
 python-multipart==0.0.5
