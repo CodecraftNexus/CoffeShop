@@ -80,6 +80,7 @@ pip install -r requirements.txt
 mysql -u root -p
 CREATE DATABASE coffee_shop_db;
 ```
+Er Create the database as shown in the diagram
 
 5. Update database configuration in `main.py`:
 ```python
