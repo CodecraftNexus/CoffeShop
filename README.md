@@ -193,20 +193,6 @@ The API implements comprehensive error handling for:
 5. Add analytics dashboard
 6. Implement backup system
 
-## Requirements
-
-```txt
-fastapi==0.68.0
-uvicorn==0.15.0
-sqlalchemy==1.4.23
-python-jose==3.3.0
-passlib==1.7.4
-python-multipart==0.0.5
-email-validator==1.1.3
-mysql-connector-python==8.0.26
-python-jose[cryptography]==3.3.0
-```
-
 ## Contributing
 
 1. Fork the repository
