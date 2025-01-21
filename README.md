@@ -80,13 +80,13 @@ pip install -r requirements.txt
 mysql -u root -p
 CREATE DATABASE coffee_shop_db;
 ```
-Er Create the database as shown in the diagram
+5.Er Create the database as shown in the diagram
 
-5. Update database configuration in `main.py`:
+6. Update database configuration in `main.py`:
 ```python
 SQLALCHEMY_DATABASE_URL = "mysql://user:password@localhost/coffee_shop_db"
 ```
-6. Install JWT
+7. Install JWT
 ```bash
 pip install jwt
 ```
